@@ -1,5 +1,5 @@
 # ADS-JAVA1
-10 atividades referente ao módulo 1 do curso de ADS, na Unyleya, de INTRODUÇÃO À ESTRUTURA DE DADOS E ALGORITMOS
+Atividades referente aos módulo 1, 2, 3 e 4  do curso de ADS, na Unyleya, de INTRODUÇÃO À ESTRUTURA DE DADOS E ALGORITMOS
 
 ---------------------------------------
 EXERCÍCIOS
