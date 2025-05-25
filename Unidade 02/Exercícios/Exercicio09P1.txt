@@ -1,0 +1,5 @@
+Melancia:2
+Abacaxi:3
+Manga:9
+Oleo:2
+Sabonete:7

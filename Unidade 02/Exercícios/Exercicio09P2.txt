@@ -1,0 +1,6 @@
+Arroz:5
+Feijão:7
+Milho:3
+Alface:1
+Melancia:2
+Abacaxi:3
