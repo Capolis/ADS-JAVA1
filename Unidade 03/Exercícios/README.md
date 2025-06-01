@@ -1,48 +1,37 @@
 # ADS-JAVA1
-10 atividades referente ao módulo 2 do curso de ADS, na Unyleya, de INTRODUÇÃO À ESTRUTURA DE DADOS E ALGORITMOS
+10 atividades referente ao módulo 3 do curso de ADS, na Unyleya, de INTRODUÇÃO À ESTRUTURA DE DADOS E ALGORITMOS
 
 ---------------------------------------
 EXERCÍCIOS
 ---------------------------------------
 
-Listas (ArrayList): 
+Árvore Binária e BST (Árvore Binária de Busca) 
 
-1 - Inversão de Lista: Imagine que você está desenvolvendo um recurso em um aplicativo que exibe uma lista de tarefas do dia em ordem inversa. Escreva um programa que inverta os elementos de uma lista de tarefas (ArrayList) sem utilizar métodos prontos da linguagem, dando ao usuário a opção de ver a lista do fim para o começo. 
+1 - Implementação da Árvore Binária: Imagine que você está desenvolvendo um sistema de gerenciamento de bibliotecas. Crie uma classe em Java para representar uma árvore binária, onde cada nó armazenará informações sobre um livro. Implemente métodos que permitam inserir novos livros e percorrer a árvore em pré-ordem, pós-ordem e em ordem para listar todos os livros disponíveis. 
 
-2 - Remoção de Elementos Duplicados: Em um sistema de cadastro, é comum que contatos sejam adicionados mais de uma vez. Crie um método que remova contatos duplicados de uma lista de usuários (ArrayList), deixando apenas uma entrada por pessoa e otimizando o banco de dados. 
+2 - Validação de BST: Suponha que você tenha uma árvore que armazena a hierarquia de categorias de produtos em um e-commerce. Escreva um método que verifique se essa árvore binária é uma árvore binária de busca (BST), garantindo que os produtos estejam organizados corretamente para facilitar a busca e navegação. 
 
-3 - Mesclar Listas: Suponha que você está gerenciando duas listas de convidados para um evento e deseja criar uma nova lista com os nomes intercalados das listas originais. Implemente uma função que receba duas listas de convidados e retorne uma nova lista com os elementos intercalados. 
+Busca Linear e Binária 
 
- 
+3 - Busca Linear: Você está criando um aplicativo de agenda de contatos e precisa encontrar rapidamente a posição de um número específico na lista. Escreva um método que realize uma busca linear em um array de inteiros, retornando a posição do número buscado ou -1 caso ele não esteja presente. 
 
-Pilhas: 
+4 - Busca Binária: Imagine que você está desenvolvendo um sistema de pesquisa de dados em uma lista de números ordenados. Implemente um algoritmo de busca binária que encontre a posição de um elemento específico em um array ordenado de inteiros, retornando sua posição ou -1 se não for encontrado. 
 
-4 - Verificação de Expressões: No desenvolvimento de uma calculadora, você precisa verificar se a expressão matemática digitada está com os parênteses corretamente balanceados. Utilize uma pilha para desenvolver um programa que verifique essa estrutura, ajudando a identificar possíveis erros antes do cálculo. 
+Grafos, BFS e DFS 
 
-5 - Inversão com Pilha: Suponha que você está desenvolvendo uma ferramenta que permite ao usuário visualizar uma lista de produtos na ordem inversa da inserção original. Implemente um método que utilize uma pilha para inverter a ordem dos elementos de uma lista de produtos (ArrayList). 
+5 - Representação de Grafos: Você está desenvolvendo um sistema de roteamento para um aplicativo de navegação. Crie uma classe que represente um grafo em Java, utilizando lista de adjacências ou matriz de adjacências, para mapear as conexões entre diferentes locais. 
 
- 
+6 - BFS em Grafos: No contexto do seu aplicativo de navegação, implemente o algoritmo de Busca em Largura (BFS) para encontrar o caminho mais curto entre dois pontos em um grafo não ponderado, ajudando os usuários a escolherem a melhor rota. 
 
-Filas: 
+7 - DFS em Grafos: Continuando no seu aplicativo de navegação, escreva um método para realizar a Busca em Profundidade (DFS) em um grafo. Esse método deve exibir todos os vértices visitados, permitindo que os usuários visualizem as possíveis rotas de maneira mais detalhada. 
 
-6 - Implementação de um Sistema de Fila de Espera: Em uma clínica, os pacientes aguardam atendimento em uma fila de espera. Crie um sistema que simule essa fila, permitindo adicionar, remover e exibir a ordem de atendimento dos pacientes. Isso ajudará na organização e no controle da ordem de atendimento. 
+Aplicações e Desafios Combinados 
 
-7 - Ordem de Chegada: Imagine que você está organizando o fluxo de clientes em uma loja durante uma promoção. Crie um programa que simule a ordem de chegada e exiba a ordem de saída, respeitando a fila de atendimento. 
+8 - Mínimo de uma BST: Imagine que você está analisando uma árvore binária de busca para identificar o produto mais barato de uma lista. Escreva um método que encontre o menor valor em uma árvore binária de busca, ajudando a determinar a melhor oferta disponível. 
 
- 
+9 - Caminho Mais Curto em Grafo Ponderado: Ao modificar seu algoritmo BFS, você precisa encontrar o caminho mais curto entre dois pontos em um grafo ponderado, considerando as distâncias. Esse ajuste é crucial para garantir que os usuários recebam as rotas mais eficientes. 
 
-Maps (HashMap): 
-
-8 - Contagem de Palavras: Você precisa criar uma análise de palavras usadas em um artigo para entender quais termos aparecem com maior frequência. Escreva um programa que conte a frequência de cada palavra em uma frase, utilizando um HashMap, para identificar as palavras mais comuns. 
-
-9 - Mesclar Mapas: Em um sistema de inventário, você tem dois registros de produtos e deseja mesclar as informações. Implemente um método para mesclar dois mapas (HashMaps) de produtos, cuidando para tratar possíveis conflitos de chaves. 
-
- 
-
-Algoritmos de Ordenação: 
-
-10 - Implementação de Algoritmo de Ordenação: Imagine que você está desenvolvendo um sistema de classificação que exibe os produtos mais populares em uma loja online. Escolha um algoritmo de ordenação (ex: Bubble Sort, Quick Sort, Merge Sort) e implemente-o para ordenar uma lista de produtos com base nas vendas, de forma decrescente, para que os mais vendidos apareçam primeiro. 
-
+10 - Ordenação de Grafos: Por fim, implemente um algoritmo que ordene os vértices de um grafo de acordo com a topologia das conexões entre eles. Essa ordenação pode ser útil em diversas aplicações, como planejamento de projetos ou organização de tarefas interdependentes. 
  
 ---------------------------------------
 Instruções de Entrega:
